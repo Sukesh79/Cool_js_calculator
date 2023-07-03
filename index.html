@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+    <div class = "calculator">
+        <input type = "text" id = "result" readonly>
+        <div class = "buttons">
+            <button onclick = "clearAll()" class = "orange-btn">C</button>
+            <button onclick = "deleteLast()" class = "orange-btn">DEL</button>
+            <button onclick = "appendAtLast('9')">9</button>
+            <button onclick = "appendAtLast('8')">8</button>
+            <button onclick = "appendAtLast('7')">7</button>
+            <button onclick = "appendAtLast('/')">/</button>
+            <button onclick = "appendAtLast('*')">*</button>
+            <button onclick = "appendAtLast('6')">6</button>
+            <button onclick = "appendAtLast('5')">5</button>
+            <button onclick = "appendAtLast('4')">4</button>
+            <button onclick = "appendAtLast('-')">-</button>
+            <button onclick = "appendAtLast('+')">+</button>
+            <button onclick = "appendAtLast('3')">3</button>
+            <button onclick = "appendAtLast('2')">2</button>
+            <button onclick = "appendAtLast('1')">1</button>
+            <button onclick = "eval2()" class = "orange-btn">=</button>
+            <button onclick = "appendAtLast('.')">.</button>
+            <button onclick = "appendAtLast('0')">0</button>
+
+        </div>
+    </div>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
